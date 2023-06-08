@@ -18,7 +18,7 @@ I like [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design
 
 I have on multiple occasions acted as [Scrum Master](https://www.scrum.org/resources/what-is-a-scrum-master) (I'd argue I haven't run scrum, nor [that I want to](https://www.youtube.com/watch?v=hxXmTnb3mFU&t=448s)), and the question of velocity comes up. I've previously created excel sheets where each sheet was a sprint, and then I had a "front page" with the summarized calculations. It was a mess when I suddenly wanted to introduce a new datapoint, or reformat a given page - as references to specific cells would suddenly be broken. It was a mess.
 
-Instead, I created Sprinthon. It's a very simple Python tool - Utilizing [Pydantic](https://pydantic.dev/) I was able to fletch out the domain model rather quickly. A sprint simply consists of:  
+Instead, I created Sprinthon. It's a very simple Python tool - Utilizing [Pydantic](https://pydantic.dev/) I was able to fletch out the domain model rather quickly. A sprint simply consists of:
 
 ```python
 from pydantic import BaseModel, validator
@@ -48,7 +48,7 @@ class Sprint(BaseModel):
     scope: Optional[SprintScope] = None
 ```
 
-And I suddenly I had a list of sprints:  
+And I suddenly I had a list of sprints:
 
 ```python
 sprints = [
@@ -110,6 +110,6 @@ I ended up extending it to create a `MarkdownWriter` which means I can export a 
 
 ## Conclusion
 
-I often forget how easy it is to write code. I often forget how much I enjoy writing code. By using scripting languages (I also wrote a similar tool for another purpose in F#), I can easily help auto the boring stuff. It might be what [Automate The Boring Stuff With Python](https://automatetheboringstuff.com/) argues as well. But it's quite neat - and by making micro tools they might grow into an open-source package that can help others.
+I often forget how easy it is to write code. I often forget how much I enjoy writing code. By using scripting languages (I also wrote a similar tool for another purpose in F#), I can easily help automate the boring stuff. It might be what [Automate The Boring Stuff With Python](https://automatetheboringstuff.com/) argues as well. But it's quite neat - and by making micro tools they might grow into an open-source package that can help others.
 
 Worst case, you've solved your problem and improved your coding and problem-solving skills in the process.
