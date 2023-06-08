@@ -48,7 +48,7 @@ class Sprint(BaseModel):
     scope: Optional[SprintScope] = None
 ```
 
-And I suddenly I had a list of sprints:
+And suddenly I had a list of sprints:
 
 ```python
 sprints = [
