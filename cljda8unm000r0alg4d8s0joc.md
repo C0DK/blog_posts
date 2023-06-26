@@ -47,7 +47,7 @@ So why not use the API to generate a specification? Why would you write YAML by 
 
 ## Why write boring YAML by hand
 
-I've worked with UXers (Which is not UI!), in a wide range of jobs - and a key practice they always do is to work with [Low-fidelity prototypes](https://uxdesign.cc/why-low-fidelity-wireframe-curious-in-product-design-c7bea87bc23d). You want something simple, where people don't overthink specific details too much, and you have to spend less time on it; it is easier for someone to criticize a YAML file, than an API you spend a week on writing - and you'll be less pissed when they say "*Wait we want our api to be* *level 3 REST*" (Tbh, you might be pissed anyway, that is very holier-than-thou)(There is a substantial risk I'll love level 3 rest in the future, and you are welcome to mock me).
+I've worked with UXers ([Which is not UI!](https://devblogs.microsoft.com/premier-developer/ux-is-not-ui-but-ui-is-definitely-ux/)), in a wide range of jobs - and a key practice they always do is to work with [Low-fidelity prototypes](https://uxdesign.cc/why-low-fidelity-wireframe-curious-in-product-design-c7bea87bc23d). You want something simple, where people don't overthink specific details too much, and you have to spend less time on it; it is easier for someone to criticize a YAML file, than an API you spend a week on writing - and you'll be less pissed when they say "*Wait we want our api to be* *level 3 REST*" (Tbh, you might be pissed anyway, that is very holier-than-thou)(There is a substantial risk I'll love level 3 rest in the future, and you are welcome to mock me).
 
 Furthermore, you will enable a consumer to write their clients even earlier on.
 
