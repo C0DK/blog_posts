@@ -1,9 +1,9 @@
 ---
-title: "API First? NO! Schema-first!"
+title: "API First? No, thank you! Schema-first, please!"
 datePublished: Mon Jun 26 2023 19:59:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljda8unm000r0alg4d8s0joc
 slug: schema-first
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/fMD_Cru6OTk/upload/cfebb1aae16ae1ec48b36ad5fc280d5d.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/9xms9i9YwIo/upload/73a79044c7dbf6b6fdbe5b37f55d9fd6.jpeg
 tags: pair-programming, swagger, dotnet, openapi, codegeneration
 
 ---
@@ -89,6 +89,8 @@ I am also a pedantic perfectionist developer. I ended up using a C# [aspnet](htt
 These aren't inherently issues with OpenAPI, but more issues with difficult-to-maintain projects and ASP.nET.
 
 These issues could be fixed by a (pedantic) developer (like me) that contributes time and energy to a great open-source project. I have fixed the `IActionResult` in prior projects - it requires some boilerplate but does work. Similarly, I could update the giraffe generator, or write one for f# ASP.NET (I consider doing so), but finding the time is difficult.
+
+Finally, I would add that working schema-first does have a bunch of benefits even without code generation. You have a formal agreement, similar to [data contracts](https://www.montecarlodata.com/blog-data-contracts-explained/), which is all the [hype](https://www.linkedin.com/pulse/unlocking-potential-data-contracts-bridging-gap-between-mohit-joshi%3FtrackingId=%252BwMlad%252FqTJOYKFqXMrHy4Q%253D%253D/?trackingId=%2BwMlad%2FqTJOYKFqXMrHy4Q%3D%3D) in the data world.
 
 # Conclusion
 
